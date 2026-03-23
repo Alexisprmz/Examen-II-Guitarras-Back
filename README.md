@@ -77,7 +77,7 @@ npm run dev
 
 ## Mapa de Endpoints
 
-La API expone los siguientes recursos bajo el prefijo `/api/guitarras`:
+La API expone los siguientes endpoints desde la ruta `(http://localhost:4000/api/guitarras)`:
 
 | Verbo HTTP | Ruta | Acción |
 |-----------|------|--------|
@@ -87,7 +87,7 @@ La API expone los siguientes recursos bajo el prefijo `/api/guitarras`:
 | `PUT` | `/api/guitarras/:id` | Modificar una guitarra existente |
 | `DELETE` | `/api/guitarras/:id` | Dar de baja una guitarra |
 
-### Metodo para insertar guitarras en la base de datos.
+### Body para insertar guitarras en la base de datos.
 
 ```json
 {
